@@ -20,7 +20,7 @@ export default function ToDoList() {
     user.todos = items;
     setCurrentUser(user);
 
-    const url = "http://localhost:8000/api/todo/add";
+    const url = "http://todoappeytan.herokuapp.com/api/todo/add";
     const body = user;
 
     axios.post(url, body).catch((error)=>console.log(error));

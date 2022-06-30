@@ -48,7 +48,7 @@ export default function AddToDo() {
     user.todos.push(newItem);
     setCurrentUser(user);
 
-    const url = "http://localhost:8000/api/todo/add";
+    const url = "http://todoappeytan.herokuapp.com/api/todo/add";
     const body = currentUser;
 
     axios

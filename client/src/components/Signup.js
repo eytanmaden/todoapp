@@ -22,7 +22,7 @@ const Signup = () => {
 
   function handleSignupSubmit(event) {
     if (password === verifyPassword) {
-      const url = "http://localhost:8000/api/user/signup";
+      const url = "http://todoappeytan.herokuapp.com/api/user/signup";
       axios
         .post(url, {
           email: email,

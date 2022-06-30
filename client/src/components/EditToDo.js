@@ -50,7 +50,7 @@ export default function EditToDo() {
     setCurrentUser(user);
 
 
-    const url = "http://localhost:8000/api/todo/add";
+    const url = "http://todoappeytan.herokuapp.com/api/todo/add";
     const body = user;
 
     axios
